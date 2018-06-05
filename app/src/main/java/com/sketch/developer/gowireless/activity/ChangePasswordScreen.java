@@ -29,7 +29,7 @@ import es.dmoral.toasty.Toasty;
  * Created by Developer on 8/21/17.
  */
 public class ChangePasswordScreen extends AppCompatActivity {
-    private String mTime;
+
 
     EditText new_password,old_password;
     RelativeLayout rl_submit;
