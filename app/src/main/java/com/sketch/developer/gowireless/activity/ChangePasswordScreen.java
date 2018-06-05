@@ -25,9 +25,7 @@ import cz.msebera.android.httpclient.Header;
 import es.dmoral.toasty.Toasty;
 
 
-/**
- * Created by Developer on 8/21/17.
- */
+
 public class ChangePasswordScreen extends AppCompatActivity {
 
 
