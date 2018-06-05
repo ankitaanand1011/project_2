@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:layout_width="185dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/tv_bg">
+
+        <ImageView
+            android:id="@+id/img_product"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:padding="20dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/no_image"/>
+        <View
+            android:id="@+id/view"
+            android:layout_below="@+id/img_product"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_grey"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/img_delete"
+                android:layout_toStartOf="@+id/img_delete">
+
+                    <TextView
+                        android:id="@+id/name_tv"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="2"
+                        android:textSize="16sp"
+                        android:text="Earphone"/>
+                    <TextView
+                        android:id="@+id/price_tv"
+                        android:layout_below="@+id/name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Earphone"/>
+            </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/img_delete"
+
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@android:drawable/ic_menu_delete"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/app_name" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

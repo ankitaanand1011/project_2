@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Go-Wireless</string>
+
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_homepage">Headphones</string>
+    <string name="nav_item_offer">Cover</string>
+    <string name="nav_item_Favourite_merchant">Screen Guard</string>
+    <string name="nav_item_nearby_merchant">Speakers</string>
+    <string name="nav_item_category">Account details</string>
+    <string name="nav_item_Saved_promotion">Settings</string>
+    <string name="nav_item_my_account">Sign out</string>
+    <string name="add">The Business Centre ,61 Wellfield Road,Roath Cardifn ,CF24 3DG"</string>
+
+    <string name="profile">Profile</string>
+    <string name="myorder">My Order</string>
+    <string name="saveditems">Saved Items</string>
+    <string name="savedaddress">Saved Address</string>
+
+
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_homepage</item>
+        <item>@string/nav_item_offer</item>
+        <item>@string/nav_item_Favourite_merchant</item>
+        <item>@string/nav_item_nearby_merchant</item>
+        <item>@string/nav_item_category</item>
+        <item>@string/nav_item_my_account</item>
+
+    </string-array>
+
+
+</resources>
